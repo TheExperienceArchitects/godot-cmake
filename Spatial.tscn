@@ -1,5 +1,15 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
 
-[node name="Spatial" type="Spatial" index="0"]
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://bin/godotcmakeexample.gdns" type="Script" id=2]
+
+[node name="Main" type="Node2D" index="0"]
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+offset = Vector2( 64, 64 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Offset" ]
 
 
