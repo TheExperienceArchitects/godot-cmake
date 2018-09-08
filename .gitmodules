@@ -1,6 +1,6 @@
-[submodule "godot_headers"]
-	path = godot_headers
+[submodule "src/godot_headers"]
+	path = src/godot_headers
 	url = https://github.com/GodotNativeTools/godot_headers
-[submodule "godot-cpp"]
-	path = godot-cpp
+[submodule "src/godot-cpp"]
+	path = src/godot-cpp
 	url = https://github.com/GodotNativeTools/godot-cpp
