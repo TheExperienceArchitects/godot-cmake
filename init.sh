@@ -7,8 +7,7 @@
 platform=linux
 
 # Cloning needed submodules
-git submodule add https://github.com/GodotNativeTools/godot_headers
-git submodule add https://github.com/GodotNativeTools/godot-cpp
+git submodule update
 cd src/godot-cpp
 
 # Generate project files
